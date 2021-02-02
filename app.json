@@ -1,6 +1,6 @@
 {
-    "name": "Telegram Bim Aktuel Bot",
-    "description": "Telegram Bim Aktuel Bot by @KanalLinkleri !",
+    "name": "Telegram Canales Famosos",
+    "description": "Telegram Canales Famosos Bot by Skueletor!",
     "logo": "https://telegra.ph/file/cccf49419b0b016bce6a8.jpg",
     "keywords": [
         "telegram",
@@ -9,8 +9,8 @@
         "bim",
         "sosyal"
     ],
-    "repository": "https://gitlab.com/muhammedfurkan/BimAktuel",
-    "website": "https://telegram.dog/KanalLinkleri",
+    "repository": "https://github.com/SkueletorTlg/BimAktuel",
+    "website": "https://telegram.dog/DKzippO",
     "success_url": "https://telegram.dog/KanalLinkleri",
     "env": {
         "APP_ID": {
