@@ -102,10 +102,10 @@ async def callback(event):
         mssg = await bot.send_message(
             event.sender_id,
             msg,
-            file="./img/Monstercine.jpg",
+            file="https://telegra.ph/file/e3e26e863eff5a9138700.jpg",
             buttons=markup
         )
-        os.remove("./img/Monstercine.jpg")
+        os.remove("https://telegra.ph/file/e3e26e863eff5a9138700.jpg")
 
     if event.data.decode("utf-8") == "2":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
@@ -119,10 +119,10 @@ async def callback(event):
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Perversion.jpg",
+            file="https://telegra.ph/file/b66a3f271c47211093068.jpg",
             buttons=markup
         )
-        os.remove("./img/Perversion.jpg")
+        os.remove("https://telegra.ph/file/b66a3f271c47211093068.jpg")
 
     if event.data.decode("utf-8") == "3":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
@@ -136,10 +136,10 @@ async def callback(event):
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Monsterbinners.jpg",
+            file="https://telegra.ph/file/a8983dc6cc7f05def2551.jpg",
             buttons=markup
         )
-        os.remove("./img/Monsterbinners.jpg")
+        os.remove("https://telegra.ph/file/a8983dc6cc7f05def2551.jpg")
 
     if event.data.decode("utf-8") == "4":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
@@ -153,10 +153,10 @@ async def callback(event):
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Musicspec8d.jpg",
+            file="https://telegra.ph/file/7326b89488dfe6623c1fe.jpg",
             buttons=markup
         )
-        os.remove("./img/Musicspec8d.jpg")
+        os.remove("https://telegra.ph/file/7326b89488dfe6623c1fe.jpg")
 
     if event.data.decode("utf-8") == "5":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
@@ -170,10 +170,10 @@ async def callback(event):
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Gatitosdepresion.jpg",
+            file="https://telegra.ph/file/8bbf550b09d2a2043f692.jpg",
             buttons=markup
         )
-        os.remove("./img/Gatitosdepresion.jpg")
+        os.remove("https://telegra.ph/file/8bbf550b09d2a2043f692.jpg")
 
     if event.data.decode("utf-8") == "6":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
@@ -187,10 +187,10 @@ async def callback(event):
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Botsdeayuda.jpg",
+            file="https://telegra.ph/file/51b013c59ba3511857ff0.jpg",
             buttons=markup
         )
-        os.remove("./img/Botsdeayuda.jpg")
+        os.remove("https://telegra.ph/file/51b013c59ba3511857ff0.jpg")
 
     if event.data.decode("utf-8") == "7":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
@@ -204,10 +204,10 @@ async def callback(event):
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Planetacurioso.jpg",
+            file="https://telegra.ph/file/2ed0ab0407d00dc45a547.jpg",
             buttons=markup
         )
-        os.remove("./img/Planetacurioso.jpg")
+        os.remove("https://telegra.ph/file/2ed0ab0407d00dc45a547.jpg")
 
     if event.data.decode("utf-8") == "8":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
@@ -221,10 +221,10 @@ async def callback(event):
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Arteenletras.jpg",
+            file="https://telegra.ph/file/ea28e07f1309c56a275b2.jpg",
             buttons=markup
         )
-        os.remove("./img/Arteenletras.jpg")
+        os.remove("https://telegra.ph/file/ea28e07f1309c56a275b2.jpg")
 
 
 bot.start()
