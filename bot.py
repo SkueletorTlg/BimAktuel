@@ -117,7 +117,6 @@ async def callback(event):
         msg = f"**Perversión**\n\n**Temática:** Contenido Hot 😏 \n**Enlace:** https://t.me/joinchat/AAAAAEnE4Zk-whY6W9PRRw"
         mssg = await bot.edit_message(
             event.sender_id,
-            event.query.msg_id,
             msg,
             file="https://telegra.ph/file/b66a3f271c47211093068.jpg",
             buttons=markup
