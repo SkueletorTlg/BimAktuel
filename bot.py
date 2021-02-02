@@ -98,7 +98,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**MonsterCine**\n\n**Temática:** Películas 🍿 \n**<a href="https://t.me/joinchat/WLIHhSTSuLH-37FC">Toca aquí para ingresar.</a>**"
+        msg = f"**MonsterCine**\n\n**Temática:** Películas 🍿 \n<a href="https://t.me/joinchat/WLIHhSTSuLH-37FC">Toca aquí para ingresar.</a>"
         mssg = await bot.send_message(
             event.sender_id,
             msg,
@@ -114,7 +114,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**Perversión**\n\n**Temática:** Contenido Hot 😏 \n**<a href="https://t.me/joinchat/AAAAAEnE4Zk-whY6W9PRRw">Toca aquí para ingresar.</a>**"
+        msg = f"**Perversión**\n\n**Temática:** Contenido Hot 😏 \n<a href="https://t.me/joinchat/AAAAAEnE4Zk-whY6W9PRRw">Toca aquí para ingresar.</a>"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
@@ -131,7 +131,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**MonsterBinners**\n\n**Temática:** Cuentas premiums gratis 🎁 \n**<a href="https://t.me/joinchat/SDpWL08FxJsH_lbg">Toca aquí para ingresar.</a>**"
+        msg = f"**MonsterBinners**\n\n**Temática:** Cuentas premiums gratis 🎁 \n<a href="https://t.me/joinchat/SDpWL08FxJsH_lbg">Toca aquí para ingresar.</a>"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
@@ -148,7 +148,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**MusicSpec8D**\n\n**Temática:** Música en 8D 🎧 \n**<a href="http://t.me/MusicSpec8D">Toca aquí para ingresar.</a>**"
+        msg = f"**MusicSpec8D**\n\n**Temática:** Música en 8D 🎧 \n<a href="http://t.me/MusicSpec8D">Toca aquí para ingresar.</a>"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
@@ -165,7 +165,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} f"**GatitosDepresión**\n\n**Temática:** Gatitos que curan tu depresión 😹 \n**<a href="http://t.me/GatitosDepresion">Toca aquí para ingresar.</a>**"
+        msg = f"**GatitosDepresión**\n\n**Temática:** Gatitos que curan tu depresión 😹 \n<a href="http://t.me/GatitosDepresion">Toca aquí para ingresar.</a>"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
@@ -182,7 +182,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**Bots de Ayuda**\n\n**Temática:** Bots creados por <a href="http://t.me/DKzippO">Skueletor</a> 🤖 \n**<a href="http://t.me/MusicSpec8D">Toca aquí para ingresar.</a>**"
+        msg = f"**Bots de Ayuda**\n\n**Temática:** Bots creados por <a href="http://t.me/DKzippO">Skueletor</a> 🤖 \n<a href="http://t.me/MusicSpec8D">Toca aquí para ingresar.</a>"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
@@ -199,7 +199,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**Planeta Curioso**\n\n**Temática:** Curiosidades 🔎 \n**<a href="http://t.me/PlanetaaCurioso">Toca aquí para ingresar.</a>**"
+        msg = f"**Planeta Curioso**\n\n**Temática:** Curiosidades 🔎 \n<a href="http://t.me/PlanetaaCurioso">Toca aquí para ingresar.</a>"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
@@ -216,7 +216,7 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**Instagramer**\n\n**Temática:** Memes 🤣 \n**<a href="http://t.me/Instagramer_la">Toca aquí para ingresar.</a>**"
+        msg = f"**Instagramer**\n\n**Temática:** Memes 🤣 \n<a href="http://t.me/Instagramer_la">Toca aquí para ingresar.</a>"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
