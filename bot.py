@@ -72,8 +72,8 @@ markup = bot.build_reply_markup(
             Button.inline(text='8️⃣', data="8")
         ],
         [
-            Button.url(text='👤 Yapımcı', url="t.me/By_Azade"),
-            Button.url(text='📍 Kanallar Gruplar', url="t.me/KanalLinkleri")
+            Button.url(text='👤 Dueño', url="t.me/DKzippO"),
+            Button.url(text='📍 Otros bots', url="t.me/Bot de ayuda")
         ]
     ]
 )
@@ -83,148 +83,148 @@ markup = bot.build_reply_markup(
 async def start(event):
     x = await bot.send_message(
         event.chat_id,
-        "BİM Aktuel'i Telegram Üzerinden Keşfetmek İçin Aşağıdaki Butonlara Tıklayarak Ürün Bilgisi Alabilirsiniz.",
+        "Hola, con este bot conocerás varios canales de Telegram ❤",
         buttons=markup,
-        file="./img/bim.jpg"
+        file="./img/bim.mp4"
     )
 
 
 @bot.on(events.CallbackQuery())
 async def callback(event):
     if event.data.decode("utf-8") == "1":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**MonsterCine**\n\n**Temática:** Películas 🍿 \n**<a href="https://t.me/joinchat/WLIHhSTSuLH-37FC">Toca aquí para ingresar.</a>** "
         mssg = await bot.send_message(
             event.sender_id,
             msg,
-            file=sonuc_img,
+            file="./img/Monstercine.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Monstercine.jpg")
 
     if event.data.decode("utf-8") == "2":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**Perversión**\n\n**Temática:** Contenido Hot 😏 \n**<a href="https://t.me/joinchat/AAAAAEnE4Zk-whY6W9PRRw">Toca aquí para ingresar.</a>** "
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file=sonuc_img,
+            file="./img/Perversion.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Perversion.jpg")
 
     if event.data.decode("utf-8") == "3":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**MonsterBinners**\n\n**Temática:** Cuentas premiums gratis 🎁 \n**<a href="https://t.me/joinchat/SDpWL08FxJsH_lbg">Toca aquí para ingresar.</a>** "
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file=sonuc_img,
+            file="./img/Monsterbinners.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Monsterbinners.jpg")
 
     if event.data.decode("utf-8") == "4":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**MusicSpec8D**\n\n**Temática:** Música en 8D 🎧 \n**<a href="http://t.me/MusicSpec8D">Toca aquí para ingresar.</a>** "
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file=sonuc_img,
+            file="./img/Musicspec8d.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Musicspec8d.jpg")
 
     if event.data.decode("utf-8") == "5":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**{sonuc_tarih} f"**GatitosDepresión**\n\n**Temática:** Gatitos que curan tu depresión 😹 \n**<a href="http://t.me/GatitosDepresion">Toca aquí para ingresar.</a>** "
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file=sonuc_img,
+            file="./img/Gatitosdepresion.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Gatitosdepresion.jpg")
 
     if event.data.decode("utf-8") == "6":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**Bots de Ayuda**\n\n**Temática:** Bots creados por <a href="http://t.me/DKzippO">Skueletor</a> 🤖 \n**<a href="http://t.me/MusicSpec8D">Toca aquí para ingresar.</a>** "
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file=sonuc_img,
+            file="./img/Botsdeayuda.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Botsdeayuda.jpg")
 
     if event.data.decode("utf-8") == "7":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**Planeta Curioso**\n\n**Temática:** Curiosidades 🔎 \n**<a href="http://t.me/PlanetaaCurioso">Toca aquí para ingresar.</a>** "
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file=sonuc_img,
+            file="./img/Planetacurioso.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Planetacurioso.jpg")
 
     if event.data.decode("utf-8") == "8":
-        await event.answer('Güncelleniyor, çok uzun sürmez :)', alert=True)
+        await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
         sonuc = bim_parse(event.data.decode("utf-8"))
         sonuc_baslik = sonuc[0]
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**{sonuc_tarih} Tarihli Ürün**\n\n**Ürün:** {sonuc_baslik}\n**Fiyat:** {sonuc_fiyat}"
+        msg = f"**Instagramer**\n\n**Temática:** Memes 🤣 \n**<a href="http://t.me/Instagramer_la">Toca aquí para ingresar.</a>** "
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file=sonuc_img,
+            file="./img/Instagramer.jpg",
             buttons=markup
         )
-        os.remove(sonuc_img)
+        os.remove("./img/Instagramer.jpg")
 
 
 bot.start()
