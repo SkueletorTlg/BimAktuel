@@ -73,7 +73,7 @@ markup = bot.build_reply_markup(
         ],
         [
             Button.url(text='👤 Dueño', url="t.me/DKzippO"),
-            Button.url(text='📍 Otros bots', url="t.me/BotsDeAyuda)
+            Button.url(text='📍 Otros bots', url="t.me/BotsDeAyuda")
         ]
     ]
 )
