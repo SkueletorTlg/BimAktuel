@@ -101,6 +101,7 @@ async def callback(event):
         msg = f"**MonsterCine**\n\n**Temática:** Películas 🍿 \n**Enlace:** https://t.me/joinchat/WLIHhSTSuLH-37FC"
         mssg = await bot.send_message(
             event.sender_id,
+            event.query.msg_id,
             msg,
             file="https://telegra.ph/file/e3e26e863eff5a9138700.jpg",
             buttons=markup
@@ -117,6 +118,7 @@ async def callback(event):
         msg = f"**Perversión**\n\n**Temática:** Contenido Hot 😏 \n**Enlace:** https://t.me/joinchat/AAAAAEnE4Zk-whY6W9PRRw"
         mssg = await bot.edit_message(
             event.sender_id,
+            event.query.msg_id,
             msg,
             file="https://telegra.ph/file/b66a3f271c47211093068.jpg",
             buttons=markup
