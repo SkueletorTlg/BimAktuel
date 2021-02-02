@@ -100,7 +100,6 @@ async def callback(event):
         sonuc_tarih = sonuc[3]
         msg = f"**MonsterCine**\n\n**Temática:** Películas 🍿 \n**Enlace:** https://t.me/joinchat/WLIHhSTSuLH-37FC"
         mssg = await bot.send_message(
-            event.sender_id,
             event.query.msg_id,
             msg,
             file="https://telegra.ph/file/e3e26e863eff5a9138700.jpg",
