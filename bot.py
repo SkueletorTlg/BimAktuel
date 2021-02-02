@@ -216,15 +216,15 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**Instagramer**\n\n**Temática:** Memes 🤣 \n**Enlace:** http://t.me/Instagramer_la"
+        msg = f"**Arte en letras**\n\n**Temática:** Frases ✏︎ \n**Enlace:** http://t.me/eres_arte"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Instagramer.jpg",
+            file="./img/Arteenletras.jpg",
             buttons=markup
         )
-        os.remove("./img/Instagramer.jpg")
+        os.remove("./img/Arteenletras.jpg")
 
 
 bot.start()
