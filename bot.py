@@ -73,7 +73,7 @@ markup = bot.build_reply_markup(
         ],
         [
             Button.url(text='👤 Dueño', url="t.me/DKzippO"),
-            Button.url(text='📍 Otros bots', url="t.me/Bot de ayuda")
+            Button.url(text='📍 Otros bots', url="t.me/BotsDeAyuda)
         ]
     ]
 )
@@ -83,7 +83,7 @@ markup = bot.build_reply_markup(
 async def start(event):
     x = await bot.send_message(
         event.chat_id,
-        "Hola, con este bot conocerás varios canales de Telegram ❤",
+        "Hola, con este bot conocerás varios canales de Telegram ❤ \n **Inspirado en @CanalesFamosos**",
         buttons=markup,
         file="./img/bim.mp4"
     )
