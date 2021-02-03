@@ -102,10 +102,10 @@ async def callback(event):
         mssg = await bot.send_message(
             event.query.msg_id,
             msg,
-            file="https://telegra.ph/file/e3e26e863eff5a9138700.jpg",
+            file="./img/Monstercine.jpg",
             buttons=markup
         )
-        os.remove("https://telegra.ph/file/e3e26e863eff5a9138700.jpg")
+        os.remove("./img/Monstercine.jpg")
 
     if event.data.decode("utf-8") == "2":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
