@@ -115,15 +115,15 @@ async def callback(event):
         sonuc_fiyat = sonuc[1]
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
-        msg = f"**Perversión**\n\n**Temática:** Contenido Hot 😏 \n**Enlace:** https://t.me/joinchat/AAAAAEnE4Zk-whY6W9PRRw"
+        msg = f"**Instagramer**\n\n**Temática:** Memes 😂 \n**Enlace:** http://t.me/Instagramer_la"
         mssg = await bot.edit_message(
             event.sender_id,
             event.query.msg_id,
             msg,
-            file="https://telegra.ph/file/b66a3f271c47211093068.jpg",
+            file="https://telegra.ph/file/be789cd71ea391486ca7c.jpg",
             buttons=markup
         )
-        os.remove("https://telegra.ph/file/b66a3f271c47211093068.jpg")
+        os.remove("https://telegra.ph/file/be789cd71ea391486ca7c.jpg")
 
     if event.data.decode("utf-8") == "3":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
