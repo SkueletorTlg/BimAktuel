@@ -99,13 +99,14 @@ async def callback(event):
         sonuc_img = sonuc[2]
         sonuc_tarih = sonuc[3]
         msg = f"**MonsterCine**\n\n**Temática:** Películas 🍿 \n**Enlace:** https://t.me/joinchat/WLIHhSTSuLH-37FC"
-        mssg = await bot.send_message(
+        mssg = await bot.edit_message(
+            event.sender_id,
             event.query.msg_id,
             msg,
-            file="./img/Monstercine.jpg",
+            file="https://telegra.ph/file/e3e26e863eff5a9138700.jpg",
             buttons=markup
         )
-        os.remove("./img/Monstercine.jpg")
+        os.remove("https://telegra.ph/file/e3e26e863eff5a9138700.jpg")
 
     if event.data.decode("utf-8") == "2":
         await event.answer('Cargando, no tomará mucho tiempo :)', alert=True)
